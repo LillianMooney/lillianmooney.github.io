@@ -45,7 +45,7 @@
   margin-right: 4%;
   border-radius: 5px;
 }
-
+ 
 .Profile-Card figcaption:after {
   content: '';
   position: absolute;
