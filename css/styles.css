@@ -466,9 +466,6 @@ footer {
 .project-image {
  float:left
 }
- .about-image {
-  float:right
- }
 .project-info {
  position:absolute;
  top:50%;
@@ -711,9 +708,6 @@ footer {
   float:none
  }
  .project-image {
-  display:none
- }
- .about-image {
   display:none
  }
  .project-info {
