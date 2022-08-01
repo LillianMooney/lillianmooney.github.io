@@ -250,7 +250,7 @@ footer {
  line-height:0.9em
 }
 #lead-content h2 {
- color:#a0cfee;
+ color:#be5afc;
  font-weight:500;
  font-size:2.25em;
  margin-bottom:15px
@@ -564,7 +564,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
  outline:none;
- background:#16527a
+ background:#502073
 }
 #contact-form textarea {
  height:150px;
