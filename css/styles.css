@@ -707,6 +707,9 @@ footer {
  .education-block span {
   float:none
  }
+ .about-image {
+  display:none
+ }
  .project-image {
   display:none
  }
