@@ -83,7 +83,7 @@ header a {
  padding:10px
 }
 header a:hover {
- color:#217dbb;
+ color:#7b28cc;
  text-decoration:none;
  background:#eee;
  border-radius:4px
@@ -263,7 +263,7 @@ footer {
  right:0;
  bottom:0;
  left:0;
- background:rgba(33,125,187,0.8);
+ background:rgba(130,30,186,0.8);
  z-index:1
 }
 #lead-down {
