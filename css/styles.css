@@ -83,7 +83,7 @@ header a {
  padding:10px
 }
 header a:hover {
- color:#7b28cc;
+ color:#fff;
  text-decoration:none;
  background:#242424;
  border-radius:4px
@@ -119,7 +119,7 @@ header.sticky {
  display:none;
  text-align:right;
  width:100%;
- background:#fff;
+ background:#242424;
  font-size:1.5em;
  padding-right:15px;
  padding-top:10px;
@@ -366,7 +366,7 @@ footer {
 .vtimeline-content h4 {
  font-size:1.2em;
  font-weight:300;
- color:red;
+ color:#b640ff;
  margin:0 0 15px 0
 }
 .vtimeline-content p {
