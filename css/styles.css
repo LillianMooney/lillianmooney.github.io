@@ -307,10 +307,10 @@ footer {
  border-bottom:1px solid #dcd9d9
 }
 #about h2 {
- color:#374054
+ color:#fff
 }
 #about p {
- color:#dad8db;
+ color:#fff;
  margin:0
 }
 #experience {
@@ -319,7 +319,7 @@ footer {
  border-bottom:1px solid #dcd9d9
 }
 #experience h2 {
- color:#374054
+ color:#fff
 }
 #experience-timeline {
  margin:30px auto 0 auto;
@@ -350,7 +350,7 @@ footer {
 }
 .vtimeline-content {
  margin-left:350px;
- background:#fff;
+ background:#404040;
  border:1px solid #e6e6e6;
  padding:15px;
  border-radius:3px;
@@ -359,18 +359,18 @@ footer {
 .vtimeline-content h3 {
  font-size:1.5em;
  font-weight:300;
- color:#374054;
+ color:#fff;
  display:inline-block;
  margin:0
 }
 .vtimeline-content h4 {
  font-size:1.2em;
  font-weight:300;
- color:#dad8db;
+ color:red;
  margin:0 0 15px 0
 }
 .vtimeline-content p {
- color:#74808a;
+ color:#fff;
  font-size:0.9em;
  margin:0
 }
@@ -403,7 +403,7 @@ footer {
  left:0;
  top:10px;
  font-weight:300;
- color:#374054
+ color:#fff
 }
 #education {
  padding:50px 15px 20px 15px;
@@ -411,7 +411,7 @@ footer {
  text-align:center
 }
 #education h2 {
- color:#374054;
+ color:#fff;
  margin-bottom:50px
 }
 .education-block {
@@ -425,7 +425,7 @@ footer {
  font-weight:500;
  float:left;
  margin:0;
- color:#374054
+ color:#fff
 }
 .education-block span {
  color:#dad8db;
@@ -440,7 +440,7 @@ footer {
 .education-block p,
 .education-block ul {
  margin:0;
- color:#74808a;
+ color:#fff;
  font-size:0.9em
 }
 .education-block ul {
@@ -452,7 +452,7 @@ footer {
  text-align:center
 }
 #projects h2 {
- color:#374054;
+ color:#fff;
  margin-bottom:50px
 }
 .project {
@@ -476,11 +476,11 @@ footer {
 .project-info h3 {
  font-size:1.5em;
  font-weight:300;
- color:#374054;
+ color:#fff;
  margin:0 0 15px 0
 }
 .project-info p {
- color:#74808a;
+ color:#fff;
  margin:0 0 15px 0;
  font-size:0.9em
 }
@@ -498,7 +498,7 @@ footer {
  text-align:center
 }
 #skills h2 {
- color:#374054;
+ color:#fff;
  margin-bottom:50px
 }
 #skills ul {
@@ -511,8 +511,8 @@ footer {
  display:inline-block;
  margin:7px;
  padding:5px 10px;
- color:#374054;
- background:#e4e4ea;
+ color:#fff;
+ background:#242424;
  list-style:none;
  cursor:default;
  font-size:1.2em
