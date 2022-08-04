@@ -527,6 +527,9 @@ footer {
 #testimonials h2 {
  color:#fff
 }
+#testimonials h3 {
+ color:#fff
+}
 #testimonials .testimonial-quote {
   border: 2px solid #ccc;
   background-color: #404040;
@@ -550,7 +553,7 @@ footer {
 /* Increase the font-size of a span element */
 #testimonials .testimonial-quote span {
   font-size: 20px;
-  color:#fff;
+  color:#dad8db;
   margin-right: 15px;
 }
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
