@@ -520,7 +520,7 @@ footer {
  font-size:1.2em
 }
 #testimonials {
- padding:50px 15px;
+ padding:50px 25%;
  background:#242424;
  text-align:center
 }
@@ -533,6 +533,7 @@ footer {
   border-radius: 5px;
   padding: 16px;
   margin: 16px 0;
+  color:#b640ff
 }
 /* Clear floats after containers */
 #testimonials .testimonial-quote::after {
@@ -549,7 +550,7 @@ footer {
 /* Increase the font-size of a span element */
 #testimonials .testimonial-quote span {
   font-size: 20px;
-  color: red;
+  color:#fff;
   margin-right: 15px;
 }
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
