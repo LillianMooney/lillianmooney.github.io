@@ -716,6 +716,12 @@ footer {
  #about p {
   text-align:left
  }
+ #about img {
+  position:relative;
+  width:200px;
+  border-radius:15px;
+  ;
+ }
 }
 @media only screen and (max-width: 768px) {
  header {
