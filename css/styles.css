@@ -496,6 +496,7 @@ footer {
 }
 #skills {
  padding:50px 15px;
+ border-bottom:1px solid #dcd9d9;
  text-align:center
 }
 #skills h2 {
@@ -517,6 +518,14 @@ footer {
  list-style:none;
  cursor:default;
  font-size:1.2em
+}
+#testimonials {
+ padding:50px 15px;
+ background:#242424;
+ text-align:center
+}
+#testimonials h2 {
+ color:#fff
 }
 #contact {
  padding:50px 15px;
