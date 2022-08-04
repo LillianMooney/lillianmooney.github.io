@@ -313,6 +313,12 @@ footer {
  color:#fff;
  margin:0
 }
+#about .about-image img {
+ margin:0;
+ position:relative;
+ width:200px;
+ border-radius:15px;
+}
 #experience {
  padding:50px 15px;
  text-align:center;
@@ -716,11 +722,10 @@ footer {
  #about p {
   text-align:left
  }
- #about img {
+ #about .about-image img {
   position:relative;
   width:200px;
   border-radius:15px;
-  ;
  }
 }
 @media only screen and (max-width: 768px) {
