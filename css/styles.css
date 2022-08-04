@@ -535,28 +535,29 @@ footer {
   margin: 16px 0;
 }
 /* Clear floats after containers */
-.container::after {
+#testimonials .testimonial-quote::after {
   content: "";
   clear: both;
   display: table;
 }
 /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-.container img {
+#testimonials .testimonial-quote img {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
 }
 /* Increase the font-size of a span element */
-.container span {
+#testimonials .testimonial-quote span {
   font-size: 20px;
+  color: red;
   margin-right: 15px;
 }
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
 @media (max-width: 500px) {
-  .container {
+#testimonials .testimonial-quote {
     text-align: center;
   }
-  .container img {
+#testimonials .testimonial-quote img {
     margin: auto;
     float: none;
     display: block;
