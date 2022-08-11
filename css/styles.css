@@ -10,6 +10,31 @@
 /*****TO THE HTML AND CSS FILES*****/
 /***********************************/
 /***********************************/
+/*Legend section*/
+.legend-container {
+  background-image: url("https://media4.giphy.com/media/4fxKIPVldmPaQfkUbf/giphy.gif"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 500px; /* Some height */
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 20vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: multiply; /* This makes the cutout text possible */
+}
+/*body*/
 body {
  font-family:'Lato', sans-serif;
  font-size:16px
