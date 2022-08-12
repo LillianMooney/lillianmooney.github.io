@@ -16,7 +16,7 @@
   position: relative;
   width: 80px;
   height: 40px;
-  background-image: url(../images/assets/SkyLight.png);
+  background-image: url(../images/assets/SkyNight.png);
   background-size:cover;
   border-radius: 50px;
   outline: none;
@@ -28,19 +28,21 @@
   left: 0;
   height: 40px;
   width: 40px;
-  background-color: #fefe69;
+  background-color: #020202;
   transition: all .9s;
+  background-image: url(../images/assets/Moon.png);
+  background-size:cover;
   border-radius: 50px;
 }
 #dark-mode:checked {
-  background-image: url(../images/assets/SkyNight.png);
+  background-image: url(../images/assets/SkyLight.png);
   background-size:cover;
 }
 #dark-mode:checked:before {
   transform: translate(100%);
   transition: all .9s;
-  background-color:#020202;
-  background-image: url(../images/assets/Moon.png);
+  background-color:#fefe69;
+  background-image: url(../images/assets/);
   background-size:cover;
 }
 /*Legend section*/
