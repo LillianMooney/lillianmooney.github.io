@@ -32,6 +32,7 @@
 <!--Begin Body Section-->
 <body>
 <!--The body section contains the information visible on the site's frontend. Editing this with no CSS would look ugly as sin, so make sure you tweak the CSS file to adjust the site to fit the new information.-->
+<input id="dark-mode" type="checkbox">
     <div class="legend-container">
         <div class="text">LILLIAN<br>MOONEY</div>
     </div>
@@ -154,7 +155,7 @@
                         <p>
                             A mobile wallpaper and icon set I designed for use with the Nova Launcher for Android devices. Based on the Rotom Phone and Rotom Pokédex owned by Nintendo, Game Freak and the Pokémon Company.
                         </p>
-                        <a href="../projects/rotom-phone">View Project</a>
+                        <a href="/rotom.html">View Project</a>
                     </div>
                     <!--End .project-info-->
                 </div>
@@ -214,13 +215,12 @@
 
     <div id="contact">
         <h2>Get in Touch</h2>
-	    <h3>I can speak English, Japanese, Latin, and a little Klingon!</h3>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/lilliemaemooney@protonmail.com">
-                <input type="hidden" name="_subject" value="Contact request via website" />
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email, so I can respond." required>
                 <textarea name="message" placeholder="Your message, for me to read." required></textarea>
-                <button type="submit">Send!</button>
+                <button type="submit">Send</button>
             </form>
         </div>
         <!--End #contact-form-->
@@ -268,7 +268,8 @@
     <!--End Footer-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/code.js"></script>
 </body>
 <!--End Body Section-->
 </html>
+

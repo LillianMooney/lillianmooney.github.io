@@ -10,6 +10,39 @@
 /*****TO THE HTML AND CSS FILES*****/
 /***********************************/
 /***********************************/
+/*Day/Night Toggle*/
+#dark-mode {
+  -webkit-appearance: none;
+  position: relative;
+  width: 80px;
+  height: 40px;
+  background-image: url(../images/assets/SkyLight.png);
+  background-size:cover;
+  border-radius: 50px;
+  outline: none;
+}
+#dark-mode:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background-color: #fefe69;
+  transition: all .9s;
+  border-radius: 50px;
+}
+#dark-mode:checked {
+  background-image: url(../images/assets/SkyNight.png);
+  background-size:cover;
+}
+#dark-mode:checked:before {
+  transform: translate(100%);
+  transition: all .9s;
+  background-color:#020202;
+  background-image: url(../images/assets/Moon.png);
+  background-size:cover;
+}
 /*Legend section*/
 .legend-container {
   background-image: url("https://media4.giphy.com/media/4fxKIPVldmPaQfkUbf/giphy.gif"); /* The image used - important! */
