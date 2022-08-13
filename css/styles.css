@@ -19,7 +19,7 @@
   background-image: url(../images/assets/SkyNight.png);
   background-size:cover;
   border-radius: 50px;
-  outline: none;
+  
 }
 #dark-mode:before {
   content: "";
@@ -68,6 +68,17 @@
   left: 50%; /* Position text in the middle */
   transform: translate(-50%, -50%); /* Position text in the middle */
   mix-blend-mode: multiply; /* This makes the cutout text possible */
+}
+@media only screen and (max-width: 750px){
+  .legend-container {
+    height:180px
+  }
+  .text{
+    font-size: 50px;
+  }}
+.dark-mode {
+  background-color:white;
+  mix-blend-mode: screen;
 }
 /*body*/
 body {
@@ -759,24 +770,6 @@ footer {
  }
 }
 @media only screen and (max-width: 992px) {
- #lead {
-  height:auto;
-  min-height:auto;
-  max-height:auto;
-  padding:100px 15px
- }
- #lead-content {
-  position:relative;
-  transform:none;
-  left:auto;
-  top:auto
- }
- #lead-content h1 {
-  font-size:3em
- }
- #lead-content h2 {
-  font-size:1.75em
- }
  #about {
   text-align:center
  }
